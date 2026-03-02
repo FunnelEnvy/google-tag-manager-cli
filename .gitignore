@@ -7,5 +7,5 @@ coverage/
 
 .idea/
 
-pnpm-lock.yaml
+
 bun.lock
