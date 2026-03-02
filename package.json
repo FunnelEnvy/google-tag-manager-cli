@@ -18,8 +18,16 @@
     "typecheck": "tsc --noEmit",
     "prepublishOnly": "pnpm run build"
   },
-  "files": ["dist"],
-  "keywords": ["cli", "marketing", "gtm", "google-tag-manager", "tag-manager"],
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "cli",
+    "marketing",
+    "gtm",
+    "google-tag-manager",
+    "tag-manager"
+  ],
   "author": "FunnelEnvy",
   "license": "MIT",
   "dependencies": {
@@ -40,6 +48,12 @@
   "overrides": {
     "esbuild": ">=0.25.0",
     "rollup": ">=4.59.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild": ">=0.25.0",
+      "rollup": ">=4.59.0"
+    }
   },
   "engines": {
     "node": ">=20.0.0"
