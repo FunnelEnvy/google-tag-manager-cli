@@ -6,3 +6,6 @@ coverage/
 .DS_Store
 
 .idea/
+
+pnpm-lock.yaml
+bun.lock
